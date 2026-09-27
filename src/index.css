@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-midnight-950: #05060a;
+  --color-midnight-900: #0b0d14;
+  --color-midnight-800: #13161f;
+  --color-midnight-700: #1c202c;
+  --color-midnight-600: #2a2f3f;
+  --color-ember-400: #fbbf6d;
+  --color-ember-500: #f5a623;
+  --color-ember-600: #d9820f;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
