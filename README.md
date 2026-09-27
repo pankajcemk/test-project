@@ -1,6 +1,6 @@
-# test-project
+# Nightbite Eats
 
-test project for claude - Nightbite Eats React 19 + Vite application.
+A late-night food ordering demo built with React 19 + Vite.
 
 ## Development
 
